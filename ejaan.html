@@ -6,13 +6,15 @@
     <title>generator ejaan bahasa indonesia</title>
 </head>
 <body>
-    <form action="">
+    <form action="" onsubmit="return false">
         <textarea name="" id="kalimat1" cols="30" rows="10"></textarea>
-        <button onclick="" value="generated"></button>
+        <button onclick="kalimat_vo()" value="generated">generat</button>
     </form>
     <form action="">
         <textarea name="" id="kalimat2" cols="30" rows="10"></textarea>
         <button onclick="" value="generated"></button>
     </form>
+    <p id="tes"></p>
 </body>
+<script type="text/javascript" src="generator_ejaan.js"></script>
 </html>
